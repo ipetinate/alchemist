@@ -10,3 +10,7 @@ spock = " 🖖 "
 
 IO.inspect("Hello #{world} #{spock}")
 IO.puts("\n#{hello}\nWorld\n#{spock}")
+
+stringLen = String.length(hello)
+
+IO.puts("String 'hello' lenght: #{stringLen}")
